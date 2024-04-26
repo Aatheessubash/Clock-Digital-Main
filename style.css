@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(28, 80, 175);
+    border: solid white 5px;
+    border-radius: 30px;
+    background-size: cover;
+    overflow: hidden;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(235, 68, 68);
+}
+.clock {
+    display: flex;
+}
+.clock div {
+margin: 5px;
+position: relative;
+}
+.clock span {
+    width: 150px;
+    height: 180px;
+    background-color:rgb(15, 49, 201);
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black 0.3;
+}
+.clock .text {
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(3, 21, 99);
+    opacity:  0.8 ;
+}
+#ampm {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    background-color:rgb(3, 21, 99) ;
+    color: aliceblue;
+
+}
+p {
+    position: relative;
+    bottom:200px;
+    color: aqua;
+}
+@media screen and (max-width:640px) {
+    .clock {
+       display: none;
+    }
+    .h2 {
+        display:none ;
+    }
+    #ampm{
+        display: none;
+    }
+}
+
+    .body {
+        margin: 0;
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: rgb(52, 94, 172);
+        border: solid white 5px;
+        border-radius: 30px;
+        background-size: cover;
+    }
+      
+
+.h2  {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: rgb(235, 68, 68);
+}
+.clock1 {
+    display: grid;
+}
+.clock1 div {
+margin: 5px;
+position: relative;
+}
+.clock1 span {
+    width: 110px;
+    height: 130px;
+    background-color:rgb(15, 49, 201);
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black 0.3;
+}
+.clock1 .text1 {
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(3, 21, 99);
+    opacity:  0.8 ;
+}
+#ampm1 {
+    bottom: 0;
+    left: 20px;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    background-color:rgb(3, 21, 99) ;
+    color: aliceblue;
+
+}
+p1 {
+    position: relative;
+    bottom:200px;
+    color: aqua;
+}
+.rotate {
+    position:absolute;
+   
+    width: 100vh;
+}
+@media screen and (min-width:640px) {
+    .box1 {
+       display: none;
+    
+    }
+    .h2 {
+        display: none;
+    }
+}
